@@ -11,4 +11,9 @@
 ### 去除全连接层，改用全局平均池化（GAP, Global Average Pooling）
 
 - 传统CNN（如AlexNet、VGG）使用全连接层（FC）作为最后的分类层，占用大量参数。GoogleNet使用全局平均池化（在每个特征图上取平均值）减少参数，同时防止过拟合。
+
+### reslet
+
+- fd
+
  
