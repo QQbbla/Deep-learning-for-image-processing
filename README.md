@@ -14,6 +14,10 @@
 
 ## reslet
 
-- fd
+- 更深的网络结构（突破1000层）
+- 提出residual结构（参差结构），解决退化问题，以达到更深的网络结构
+![residual结构](images/residual.png)
+- 使用Batch Noramlization加速训练，且解决梯度消失和梯度爆炸问题（丢弃dropout方式）
+![residual结构](images/batch_norm.png)
 
  
